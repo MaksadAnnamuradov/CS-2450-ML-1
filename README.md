@@ -1,1 +1,2 @@
-# CS-2450
+The UVsim is a simulator for Basic Machine Language. We used C++ build a part of its functions, and we are going convert it to C# in the future.
+The program first initializes all memory addresses and the accumulator. Then it will address the first memory location which is 00. The user will make a 5 length long input, begin with + or - and 4 digits behind, for example. +1010. The program will take user input and read the first two digits as a command, the last two digits will be the memory location. When the program gets the halt operation from the user, the program will stop asking more input and print out the memory matrix and the accumulator.
