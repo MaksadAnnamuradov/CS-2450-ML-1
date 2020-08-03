@@ -1,0 +1,10 @@
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\bin\Debug\UV-Sim-Csharp.exe.config
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\bin\Debug\UV-Sim-Csharp.exe
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\bin\Debug\UV-Sim-Csharp.pdb
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV-Sim-Csharp.csprojAssemblyReference.cache
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV_Sim_Csharp.Form1.resources
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV_Sim_Csharp.Properties.Resources.resources
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV-Sim-Csharp.csproj.GenerateResource.cache
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV-Sim-Csharp.csproj.CoreCompileInputs.cache
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV-Sim-Csharp.exe
+G:\2020\summer\CS2450\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV-Sim-Csharp.pdb
