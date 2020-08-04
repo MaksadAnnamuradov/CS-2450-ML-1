@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -24,6 +25,7 @@ namespace UV_Sim_Csharp
         int command;
         int targetIndex;
         int number;
+        bool inputcheck = false;
 
         //Change the sign for operation
         private void sign_Click(object sender, EventArgs e)
@@ -55,6 +57,21 @@ namespace UV_Sim_Csharp
         public void GetInput()
         {
             string tmp = UVinput.Text;
+            if (tmp.Length != 4)
+            {
+                inputcheck = false;
+                return;
+            }
+            bool b = tmp.All(char.IsDigit);
+            if (b == true)
+            {
+                inputcheck = true;
+            }
+            else
+            {
+                inputcheck = false;
+                return;
+            }
             command = Int16.Parse(tmp[0].ToString() + tmp[1].ToString());
             targetIndex = Int16.Parse(tmp[2].ToString() + tmp[3].ToString());
             //get input numebr if needed
@@ -72,10 +89,18 @@ namespace UV_Sim_Csharp
             else
             {
                 GetInput();
+                if (inputcheck == false)
+                {
+                    MessageBox.Show("The input should be 4 digits, please try again", "Erro");
+                    return;
+                }
                 if (command == 10)//read
                 {
                     //bring the number to targetIndex
-                    //if (sign.Text == "-")
+                    if (sign.Text == "-")
+                    {
+                        number = number * -1;
+                    }
                     Memory[targetIndex] = number;
                     //Message printout
                     MessageLabel.Text = "The operation is READ," +
@@ -87,6 +112,10 @@ namespace UV_Sim_Csharp
                 else if (command == 11)//write
                 {
                     //put the data in the screen
+                    MessageLabel.Text = "The operation is WRITE," +
+                        "the number in Memory " + targetIndex + " is " + Memory[targetIndex];
+                    Index = targetIndex;
+                    IndexOut.Text = Index.ToString();
                 }
                 else if (command == 20)//load
                 {
@@ -156,6 +185,10 @@ namespace UV_Sim_Csharp
                     Index = 0;
                     IndexOut.Text = Index.ToString();
                     AccumulatorOut.Text = Accumulator.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Don't have this command, try again", "Erro");
                 }
             }
 
