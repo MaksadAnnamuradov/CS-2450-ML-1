@@ -58,7 +58,14 @@ namespace UV_Sim_Csharp
             command = Int16.Parse(tmp[0].ToString() + tmp[1].ToString());
             targetIndex = Int16.Parse(tmp[2].ToString() + tmp[3].ToString());
             //get input numebr if needed
-            number = Int16.Parse(InputNumber.Text.ToString());
+            try
+            {
+                number = Int16.Parse(InputNumber.Text.ToString());
+            }
+            catch
+            {
+
+            }
         }
 
         //find out which operation been called
@@ -86,7 +93,12 @@ namespace UV_Sim_Csharp
                 }
                 else if (command == 11)//write
                 {
-                    //put the data in the screen
+                    //write data from location to screen
+                    MessageLabel.Text = "The operation is WRITE," +
+                        "from " + targetIndex + " display on screen " + Memory[targetIndex];
+                    MessageBox.Show("The data stored in memory: " + targetIndex + " is " + Memory[targetIndex]);
+                    Index = targetIndex;
+                    IndexOut.Text = Index.ToString();
                 }
                 else if (command == 20)//load
                 {
@@ -100,7 +112,13 @@ namespace UV_Sim_Csharp
                 }
                 else if (command == 21)//store
                 {
-                    //
+                    //store number from input in accumulator
+                    Memory[targetIndex] = number;
+                    //message
+                    MessageLabel.Text = "The operation is STORE," +
+                        "number " + number + " stored in accumulator " + targetIndex;
+                    Accumulator = number;
+                    AccumulatorOut.Text = Accumulator.ToString();
                 }
                 else if (command == 30)//add
                 {
@@ -124,11 +142,27 @@ namespace UV_Sim_Csharp
                 }
                 else if (command == 32)//divide
                 {
-
+                    //divide number in accumulator by number in memory
+                 
+                    MessageLabel.Text = "The operation is DIVIDE, " +
+                        "divide accumulator: "  + Accumulator + " by " + Memory[targetIndex] + "Equals ";
+                    Accumulator = Accumulator / Memory[targetIndex];
+                    MessageLabel.Text += Accumulator;
+                    Index = targetIndex;
+                    IndexOut.Text = Index.ToString();
+                    AccumulatorOut.Text = Accumulator.ToString();
                 }
                 else if (command == 33)//multiply
                 {
+                    //multiply number in accumulator by number in memory
 
+                    MessageLabel.Text = "The operation is MULTIPLY, " +
+                        "multiply accumulator: " + Accumulator + " by " + Memory[targetIndex] + "Equals ";
+                    Accumulator = Accumulator * Memory[targetIndex];
+                    MessageLabel.Text += Accumulator;
+                    Index = targetIndex;
+                    IndexOut.Text = Index.ToString();
+                    AccumulatorOut.Text = Accumulator.ToString();
                 }
                 else if (command == 40)//branch
                 {
@@ -139,11 +173,22 @@ namespace UV_Sim_Csharp
                 }
                 else if (command == 41)//branchneg
                 {
-
+                    //invert target number
+                    Memory[targetIndex] = -Memory[targetIndex];
+                    MessageLabel.Text = "The operation is BRANCHNEG, " +
+                      "jump to Memory " + targetIndex + "invert number equals: " + Memory[targetIndex];
+                    
+                    Index = targetIndex;
+                    IndexOut.Text = Index.ToString();
                 }
                 else if (command == 42)//branchzero
                 {
-
+                    //branch to memory location and zero out
+                    Memory[targetIndex] = 0;
+                    MessageLabel.Text = "The operation is BRANCHZERO, " +
+                        " jump to Memory " + targetIndex + " zero out memory equals: " + Memory[targetIndex];
+                    Index = targetIndex;
+                    IndexOut.Text = Index.ToString();
                 }
                 else if (command == 43)//halt
                 {
