@@ -230,5 +230,11 @@ namespace UV_Sim_Csharp
             }
 
         }
+
+        private void NewApplication_Button_Click(object sender, EventArgs e)
+        {
+            var _StartApplication = new System.Diagnostics.ProcessStartInfo(Application.ExecutablePath);
+            System.Diagnostics.Process.Start(_StartApplication);
+        }
     }
 }
