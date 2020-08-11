@@ -47,21 +47,24 @@
             this.MultiText = new System.Windows.Forms.RichTextBox();
             this.ReadText = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.MultipleProcess_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UVinput
             // 
-            this.UVinput.Location = new System.Drawing.Point(424, 82);
+            this.UVinput.Location = new System.Drawing.Point(636, 137);
+            this.UVinput.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.UVinput.Name = "UVinput";
-            this.UVinput.Size = new System.Drawing.Size(120, 21);
+            this.UVinput.Size = new System.Drawing.Size(178, 26);
             this.UVinput.TabIndex = 0;
             // 
             // sign
             // 
             this.sign.AutoSize = true;
-            this.sign.Location = new System.Drawing.Point(407, 85);
+            this.sign.Location = new System.Drawing.Point(610, 142);
+            this.sign.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sign.Name = "sign";
-            this.sign.Size = new System.Drawing.Size(11, 12);
+            this.sign.Size = new System.Drawing.Size(18, 20);
             this.sign.TabIndex = 1;
             this.sign.Text = "+";
             this.sign.Click += new System.EventHandler(this.sign_Click);
@@ -69,17 +72,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(409, 49);
+            this.label1.Location = new System.Drawing.Point(614, 82);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 12);
+            this.label1.Size = new System.Drawing.Size(151, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Click + change it to -";
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(573, 82);
+            this.NextButton.Location = new System.Drawing.Point(860, 137);
+            this.NextButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(75, 23);
+            this.NextButton.Size = new System.Drawing.Size(112, 38);
             this.NextButton.TabIndex = 3;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
@@ -88,35 +93,39 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 84);
+            this.label2.Location = new System.Drawing.Point(50, 140);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 12);
+            this.label2.Size = new System.Drawing.Size(102, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Accumulator:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 119);
+            this.label3.Location = new System.Drawing.Point(4, 198);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 12);
+            this.label3.Size = new System.Drawing.Size(131, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Current Location:";
             // 
             // IndexOut
             // 
             this.IndexOut.AutoSize = true;
-            this.IndexOut.Location = new System.Drawing.Point(117, 119);
+            this.IndexOut.Location = new System.Drawing.Point(176, 198);
+            this.IndexOut.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.IndexOut.Name = "IndexOut";
-            this.IndexOut.Size = new System.Drawing.Size(11, 12);
+            this.IndexOut.Size = new System.Drawing.Size(18, 20);
             this.IndexOut.TabIndex = 7;
             this.IndexOut.Text = "0";
             // 
             // InitializeButton
             // 
-            this.InitializeButton.Location = new System.Drawing.Point(248, 25);
+            this.InitializeButton.Location = new System.Drawing.Point(372, 42);
+            this.InitializeButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.InitializeButton.Name = "InitializeButton";
-            this.InitializeButton.Size = new System.Drawing.Size(75, 23);
+            this.InitializeButton.Size = new System.Drawing.Size(112, 38);
             this.InitializeButton.TabIndex = 8;
             this.InitializeButton.Text = "Initialize";
             this.InitializeButton.UseVisualStyleBackColor = true;
@@ -125,51 +134,57 @@
             // InitialLabel
             // 
             this.InitialLabel.AutoSize = true;
-            this.InitialLabel.Location = new System.Drawing.Point(33, 30);
+            this.InitialLabel.Location = new System.Drawing.Point(50, 50);
+            this.InitialLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.InitialLabel.Name = "InitialLabel";
-            this.InitialLabel.Size = new System.Drawing.Size(209, 12);
+            this.InitialLabel.Size = new System.Drawing.Size(235, 20);
             this.InitialLabel.TabIndex = 9;
             this.InitialLabel.Text = "Please Initialize the memory first";
             // 
             // AccumulatorOut
             // 
             this.AccumulatorOut.AutoSize = true;
-            this.AccumulatorOut.Location = new System.Drawing.Point(117, 84);
+            this.AccumulatorOut.Location = new System.Drawing.Point(176, 140);
+            this.AccumulatorOut.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AccumulatorOut.Name = "AccumulatorOut";
-            this.AccumulatorOut.Size = new System.Drawing.Size(11, 12);
+            this.AccumulatorOut.Size = new System.Drawing.Size(18, 20);
             this.AccumulatorOut.TabIndex = 10;
             this.AccumulatorOut.Text = "0";
             // 
             // MessageLabel
             // 
             this.MessageLabel.AutoSize = true;
-            this.MessageLabel.Location = new System.Drawing.Point(67, 185);
+            this.MessageLabel.Location = new System.Drawing.Point(100, 308);
+            this.MessageLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MessageLabel.Name = "MessageLabel";
-            this.MessageLabel.Size = new System.Drawing.Size(131, 12);
+            this.MessageLabel.Size = new System.Drawing.Size(159, 20);
             this.MessageLabel.TabIndex = 11;
             this.MessageLabel.Text = "This is message label";
             // 
             // InputNumber
             // 
-            this.InputNumber.Location = new System.Drawing.Point(424, 120);
+            this.InputNumber.Location = new System.Drawing.Point(636, 200);
+            this.InputNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.InputNumber.Name = "InputNumber";
-            this.InputNumber.Size = new System.Drawing.Size(100, 21);
+            this.InputNumber.Size = new System.Drawing.Size(148, 26);
             this.InputNumber.TabIndex = 12;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(335, 123);
+            this.label4.Location = new System.Drawing.Point(502, 205);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 12);
+            this.label4.Size = new System.Drawing.Size(110, 20);
             this.label4.TabIndex = 13;
             this.label4.Text = "Input Number:";
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(646, 402);
+            this.SaveButton.Location = new System.Drawing.Point(969, 670);
+            this.SaveButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(97, 36);
+            this.SaveButton.Size = new System.Drawing.Size(146, 60);
             this.SaveButton.TabIndex = 14;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
@@ -177,9 +192,10 @@
             // 
             // LoadButton
             // 
-            this.LoadButton.Location = new System.Drawing.Point(492, 402);
+            this.LoadButton.Location = new System.Drawing.Point(738, 670);
+            this.LoadButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LoadButton.Name = "LoadButton";
-            this.LoadButton.Size = new System.Drawing.Size(112, 36);
+            this.LoadButton.Size = new System.Drawing.Size(168, 60);
             this.LoadButton.TabIndex = 15;
             this.LoadButton.Text = "Load";
             this.LoadButton.UseVisualStyleBackColor = true;
@@ -187,17 +203,19 @@
             // 
             // MultiText
             // 
-            this.MultiText.Location = new System.Drawing.Point(424, 160);
+            this.MultiText.Location = new System.Drawing.Point(636, 267);
+            this.MultiText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MultiText.Name = "MultiText";
-            this.MultiText.Size = new System.Drawing.Size(233, 199);
+            this.MultiText.Size = new System.Drawing.Size(348, 329);
             this.MultiText.TabIndex = 16;
             this.MultiText.Text = "";
             // 
             // ReadText
             // 
-            this.ReadText.Location = new System.Drawing.Point(663, 319);
+            this.ReadText.Location = new System.Drawing.Point(994, 532);
+            this.ReadText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ReadText.Name = "ReadText";
-            this.ReadText.Size = new System.Drawing.Size(75, 23);
+            this.ReadText.Size = new System.Drawing.Size(112, 38);
             this.ReadText.TabIndex = 17;
             this.ReadText.Text = "Read";
             this.ReadText.UseVisualStyleBackColor = true;
@@ -205,14 +223,26 @@
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // MultipleProcess_Button
+            // 
+            this.MultipleProcess_Button.Location = new System.Drawing.Point(54, 670);
+            this.MultipleProcess_Button.Name = "MultipleProcess_Button";
+            this.MultipleProcess_Button.Size = new System.Drawing.Size(300, 60);
+            this.MultipleProcess_Button.TabIndex = 18;
+            this.MultipleProcess_Button.Text = "Start New Application";
+            this.MultipleProcess_Button.UseVisualStyleBackColor = true;
+            this.MultipleProcess_Button.Click += new System.EventHandler(this.MultipleProcess_Button_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 750);
+            this.Controls.Add(this.MultipleProcess_Button);
             this.Controls.Add(this.ReadText);
             this.Controls.Add(this.MultiText);
             this.Controls.Add(this.LoadButton);
@@ -230,6 +260,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.sign);
             this.Controls.Add(this.UVinput);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -258,6 +289,7 @@
         private System.Windows.Forms.RichTextBox MultiText;
         private System.Windows.Forms.Button ReadText;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Button MultipleProcess_Button;
     }
 }
 
