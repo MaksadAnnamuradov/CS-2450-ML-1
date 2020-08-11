@@ -1,0 +1,16 @@
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\UV-Sim-CsharpTests.dll
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\UV-Sim-CsharpTests.pdb
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\UV-Sim-Csharp.exe
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\UV-Sim-Csharp.pdb
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\UV-Sim-Csharp.exe.config
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\obj\Debug\UV-Sim-CsharpTests.csprojAssemblyReference.cache
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\obj\Debug\UV-Sim-CsharpTests.csproj.CopyComplete
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\obj\Debug\UV-Sim-CsharpTests.dll
+C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectM2\CS-2450-ML-2\UV-Sim-Csharp\UV-Sim-CsharpTests\obj\Debug\UV-Sim-CsharpTests.pdb
