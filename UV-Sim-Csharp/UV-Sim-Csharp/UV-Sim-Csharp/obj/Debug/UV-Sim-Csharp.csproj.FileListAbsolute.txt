@@ -50,7 +50,6 @@ C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectFinal\CS-2450-ML-3\U
 C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectFinal\CS-2450-ML-3\UV-Sim-Csharp\UV-Sim-Csharp\UV-Sim-Csharp\bin\Debug\System.Text.Json.xml
 C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectFinal\CS-2450-ML-3\UV-Sim-Csharp\UV-Sim-Csharp\UV-Sim-Csharp\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectFinal\CS-2450-ML-3\UV-Sim-Csharp\UV-Sim-Csharp\UV-Sim-Csharp\bin\Debug\System.ValueTuple.xml
-C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectFinal\CS-2450-ML-3\UV-Sim-Csharp\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV-Sim-Csharp.csprojAssemblyReference.cache
 C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectFinal\CS-2450-ML-3\UV-Sim-Csharp\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV_Sim_Csharp.Form1.resources
 C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectFinal\CS-2450-ML-3\UV-Sim-Csharp\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV_Sim_Csharp.Properties.Resources.resources
 C:\Users\Cory\Desktop\School\Summer_2020\CS2450\GroupProjectFinal\CS-2450-ML-3\UV-Sim-Csharp\UV-Sim-Csharp\UV-Sim-Csharp\obj\Debug\UV-Sim-Csharp.csproj.GenerateResource.cache
